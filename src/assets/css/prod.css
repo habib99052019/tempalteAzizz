@@ -1,0 +1,282 @@
+.prod-app {
+
+    width: 100%;
+    display: inline-block;
+
+}
+
+.prod-app .details {
+
+    width: 80%;
+    padding: 2%;
+    border-radius: 0.3vw;
+    background-color: #232323;
+    margin: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: -9%;
+    position: relative;
+    z-index: 7898;
+
+}
+
+.prod-app .details .sc {
+
+    width: 40%;
+
+}
+
+.prod-app .details .sc .title {
+
+    font-size: 2.3vw;
+    margin-bottom: 1%;
+
+}
+
+.prod-app .details .sc .sb-title {
+
+    font-size: 1.1vw;
+    margin-bottom: 2%;
+    color: #dadada;
+
+}
+
+.prod-app .details .sc .flex-sp {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.prod-app .details .sc .flex-sp .sp {
+
+    margin-right: 3%;
+    width: 24%;
+    font-size: 1.1vw;
+
+}
+
+.prod-app .details .sc .flex-sp .sp i {
+
+    margin-right: 2%;
+
+}
+
+.prod-app .details .sc.right {
+
+    text-align: right;
+    font-size: 1.4vw;
+
+}
+
+.prod-app .details .sc.right span {
+
+    font-size: 2vw;
+    color: var(--theme-color);
+
+}
+
+.prod-app .ctn-prod {
+
+    width: 84%;
+    margin: 0 8%;
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod {
+
+    width: 95%;
+    padding: 3%;
+    background-color: #232323;
+    color: white;
+    margin-bottom: 3%;
+    display: inline-block;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .title {
+
+    font-size: 1.8vw;
+    margin-bottom: 3%;
+
+}
+
+.prod-app .ctn-prod .sc.right .section-prod {
+
+    padding: 7%;
+    width: 86%;
+
+}
+
+.prod-app .ctn-prod .sc.right .section-prod .title {
+
+    margin-bottom: 6%;
+
+}
+
+
+.prod-app .ctn-prod .sc .section-prod p {
+
+    font-size: 1.2vw;
+    color: #b9b9b9;
+    line-height: 2vw;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .ft {
+
+    font-size: 1.2vw;
+    padding: 2% 0;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    color: #e9e9e9;
+    float: left;
+    width: 30%;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .ft i {
+
+    width: 14%;
+    text-align: center;
+    color: var(--theme-color);
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .video {
+
+    width: 100%;
+    padding: 30% 0;
+    position: relative;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .video img {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .video .ctn-vd {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0000008a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .video .ctn-vd .btn-vd {
+
+    width: 9%;
+    padding: 3.2% 0;
+    background-image: var(--linear-bg-color);
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.3vw;
+    animation: btnVd 1s infinite linear alternate;
+    transition: .3s;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .video .ctn-vd .btn-vd:active {
+
+    animation: btnV 1s infinite linear alternate;
+    scale: 0.98;
+
+}
+
+
+@keyframes btnVd {
+    0% {
+        scale: 1.2;
+    }
+}
+
+.prod-app .ctn-prod .sc .section-prod .sp-c {
+
+    font-size: 1.1vw;
+    margin-bottom: 5%;
+    width: 100%;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .sp-c i {
+
+    width: 5%;
+
+}
+
+
+.prod-app .ctn-prod .sc .section-prod input {
+
+    width: 93%;
+    padding: 4% 3%;
+    border: .1vw solid #6f6e6e;
+    background-color: transparent;
+    margin-bottom: 4%;
+    border-radius: 0.3vw;
+    color: white;
+    font-size: 1vw;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod textarea {
+
+    width: 92%;
+    padding: 4% 3%;
+    border: .1vw solid #6f6e6e;
+    background-color: transparent;
+    margin-bottom: 4%;
+    border-radius: 0.3vw;
+    color: white;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+
+}
+
+
+.prod-app .ctn-prod .sc .section-prod .form {
+    text-align: center;
+}
+
+.prod-app .ctn-prod .sc .section-prod .form .ttl {
+
+    font-size: 1.3vw;
+    margin-bottom: 4%;
+    color: #c0c0c0;
+    margin-top: 16%;
+
+}
+
+.prod-app .ctn-prod .sc .section-prod .form button {
+
+    width: 80%;
+    padding: 4% 3%;
+    font-size: 1.2vw;
+    border-radius: 10vw;
+    border: none;
+    background-image: var(--linear-bg-color);
+    color: white;
+
+}

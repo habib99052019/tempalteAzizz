@@ -1,0 +1,201 @@
+.home-app .cover{
+
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.home-app .cover .content{
+
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000c;
+
+}
+
+.home-app .cover .content .sc{
+
+    margin: 5% 2%;
+    padding: 1.9% 1.7%;
+
+}
+
+.home-app .cover .content .sc .sb{
+
+    font-size: 1.6vw;
+    color: #cfcfcf;
+
+}
+
+.home-app .cover .content .sc .brand{
+
+    font-size: 1.3vw;
+    color: #cfcfcf;
+    margin-bottom: 3%;
+
+}
+
+.home-app .cover .content .sc .title{
+
+    font-size: 2.5vw;
+    line-height: 4vw;
+    padding: 3% 0;
+    padding-top: 0;
+    color: white;
+
+}
+
+.home-app .cover .content .sc .flex-card{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+.home-app .cover .content .sc .flex-card .crd{
+
+    width: 27%;
+    padding: 7% 0;
+    background-color: #7d7c7c38;
+    text-align: center;
+    margin-right: 3%;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    color: white;
+    cursor: pointer;
+
+}
+
+.home-app .cover .content .sc .flex-card .crd:hover{
+
+    background-color: #7d7c7c67;
+
+}
+
+
+.home-app .cover .content .sc .flex-card .crd i{
+
+    margin-bottom: 8%;
+
+}
+
+
+.home-app .cover .content .sc.outline{
+
+    background-color: #ffffff1a;
+    border-radius: 0.4vw;
+
+}
+
+.home-app .cover .content .sc .form{
+
+    width: 100%;
+    color: white;
+
+}
+
+.home-app .cover .content .sc .form .label{
+
+    font-size: 1.3vw;
+    margin-bottom: 3%;
+    width: 100%;
+
+}
+
+.home-app .cover .content .sc .form select{
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+    width: 100%;
+    padding: 4% 2.2%;
+    font-size: 1.1vw;
+    border-radius: 0.4vw;
+    background-color: transparent;
+    border: .1vw solid #696161;
+    color: white;
+    margin-bottom: 5%;
+
+}
+
+.home-app .cover .content .sc .form select option{
+    color: black;
+}
+
+.home-app .cover .content .sc .form select::-ms-value{
+
+    color:black;
+
+}
+
+.home-app .cover .content .sc .form .flex{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 2%;
+
+}
+
+.home-app .cover .content .sc .form .flex .c-col{
+
+    width: 47%;
+
+}
+
+.home-app .cover .content .sc .form .flex .c-col select{
+
+    padding: 7% 4%;
+
+}
+
+
+.home-app .cover .content .sc .form input{
+
+    width: 100%;
+    padding: 4% 2.2%;
+    background-color: transparent;
+    border: .1vw solid #696161;
+    color: white;
+    font-size: 1.1vw;
+    border-radius: 0.4vw;
+
+}
+
+.home-app .cover .content .sc .form input::placeholder{
+
+    color: #cfcfcf;
+
+}
+
+.home-app .cover .content .sc .form .buttons{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1% 0;
+    margin-top: 5%;
+
+}
+
+.home-app .cover .content .sc .form .buttons button{
+
+    padding: 3.4% 8%;
+    font-size: 1.1vw;
+    cursor: pointer;
+    border: none;
+    background-image: var(--linear-bg-color);
+    color: white;
+    margin: 0 4%;
+    margin-left: 0;
+    border-radius: 0.4vw;
+    
+}

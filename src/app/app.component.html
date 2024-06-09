@@ -1,0 +1,93 @@
+<div class="app">
+    <div class="nav-bar">
+        <img src="/assets/img/logo.png" class="logo" alt="logo">
+        <div class="menu">
+            <div class="item">Home</div>
+            <div class="item">Off-Plan</div>
+            <div class="item">Ready-To-Move</div>
+            <div class="item">Contact</div>
+        </div>
+    </div>
+
+    <div class="nav-bar-mobile">
+        <img src="/assets/img/logo.png" class="logo" alt="logo">
+        <div class="menu-btn" (click)="openSideBar = !openSideBar">
+            <i class="fa-solid fa-bars" *ngIf="!openSideBar"></i>
+            <i class="fa-solid fa-xmark" *ngIf="openSideBar"></i>
+        </div>
+    </div>
+
+    <div class="side-bar"
+        [ngStyle]="{'bottom':openSideBar? '-1%' : '-30%','opacity':openSideBar ? 1 : 0,'pointerEvents':openSideBar?'all':'none'}">
+        <div class="item">Home</div>
+        <div class="hr"></div>
+        <div class="item">Property</div>
+        <div class="hr"></div>
+        <div class="item">Contact</div>
+        <div class="hr"></div>
+        <div class="item">Contact</div>
+        <div class="hr"></div>
+        <div class="item">Contact</div>
+        <div class="hr"></div>
+        <div class="item">Contact</div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <div class="footer-ft">
+        <div class="flex-sc">
+            <div class="sc">
+                <img class="logo" src="/assets/img/logo.png" alt="logo">
+                <div class="desc">
+                    This home provides entertaining spaces with a kitchen opening...
+                </div>
+                <div class="dt-flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>A-32, Albany, Newyork.</span>
+                </div>
+                <div class="dt-flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(+066) 518 - 457 - 5181</span>
+                </div>
+                <div class="dt-flex">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Contact@gmail.com</span>
+                </div>
+
+                <div class="sc-title">Tag</div>
+                <div class="li">Link 1</div>
+                <div class="li">Link 2</div>
+                <div class="li">Link 3</div>
+                <div class="li">Link 4</div>
+                <div class="li">Link 5</div>
+                <div class="li">Link 6</div>
+            </div>
+            <div class="sc">
+                <div class="sc-title">Our Location</div>
+                <img class="map-img" src="/assets/img/map.PNG" alt="map">
+
+                <div class="sc-title">Our news</div>
+                <div class="li">Link 1</div>
+                <div class="li">Link 2</div>
+                <div class="li">Link 3</div>
+                <div class="li">Link 4</div>
+                <div class="li">Link 5</div>
+                <div class="li">Link 6</div>
+
+            </div>
+            <div class="sc">
+                <div class="sc-title">About</div>
+                <div class="li">Link 1</div>
+                <div class="li">Link 2</div>
+                <div class="li">Link 3</div>
+                <div class="li">Link 4</div>
+                <div class="li">Link 5</div>
+                <div class="li">Link 6</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ft-f">
+        All rights reserved <i class="fa-regular fa-copyright"></i> 2023 by <span>heart-of-carthage-dubai.com</span>
+    </div>
+</div>
